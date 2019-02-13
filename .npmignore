@@ -1,0 +1,8 @@
+dist/test*
+lib
+src
+test
+*.tgz
+typings
+gulpfile.js
+*.json

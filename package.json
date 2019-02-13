@@ -1,0 +1,48 @@
+{
+  "name": "react-unit",
+  "version": "3.0.3",
+  "description": "Lightweight unit test library for ReactJS.",
+  "main": "dist/react-unit.js",
+  "scripts": {
+    "test": "node_modules/.bin/gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pzavolinsky/react-unit.git"
+  },
+  "keywords": [
+    "react-component",
+    "unit test",
+    "test",
+    "react",
+    "jasmine"
+  ],
+  "author": "Patricio Zavolinsky",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pzavolinsky/react-unit/issues"
+  },
+  "homepage": "https://github.com/pzavolinsky/react-unit",
+  "devDependencies": {
+    "@types/ramda": "0.0.5",
+    "@types/react-dom": "^0.14.23",
+    "@types/react-test-renderer": "^16.0.1",
+    "del": "^1.2.1",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.2.1",
+    "gulp-insert": "^0.5.0",
+    "gulp-jasmine": "^2.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-typescript": "^2.13.6",
+    "prop-types": "^15.5.6",
+    "run-sequence": "^1.1.2",
+    "tslint": "^5.0.0",
+    "typescript": "^2.2.2"
+  },
+  "dependencies": {
+    "ramda": "^0.17.1",
+    "react": ">=15.5.3 <17.0.0",
+    "react-dom": ">=15.5.3 <17.0.0",
+    "react-test-renderer": ">=15.5.3 <17.0.0"
+  }
+}
